@@ -2,6 +2,6 @@
   pkgs.mkShell {
     buildInputs = [
         pkgs.adoptopenjdk-bin
-        pkgs.zlib
+        pkgs.gradle
     ];
 }
